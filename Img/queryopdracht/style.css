@@ -1,0 +1,11 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 {background-color: grey; width: 100px; height: 100px;grid-area: 1 / 1 / 4 / 4; }
+    .div2 {background-color: grey; width: 100px; height: 100px;grid-area: 5 / 3 / 9 / 8; }
+    .div3 {background-color: grey; width: 100px; height: 100px; grid-area: 2 / 6 / 4 / 9; }
